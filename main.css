@@ -1,0 +1,140 @@
+.dataTable{
+  float:left;
+}
+.dataTable .gi-button a{
+  background-color:white;
+}
+.dataTable .gi-button a.show{
+  background-color:#b0b0b0;
+}
+.dataTable .gi-button a.show:hover{
+  background-color:#da161f;
+}
+.dataTable tr td:first-child, .dataTable tr td:first-child div{
+  text-align:left !important;
+}
+.even{
+}
+.dataTable tr{
+  border-right:1px solid #ccc;
+}
+.dataTable td{
+padding: 6px;
+min-width:100px;
+border: 1px solid #CCC;
+border-top: None;
+vertical-align: middle;
+font-family: Verdana, sans-serif;
+font-size: 11px;
+overflow: hidden;
+}
+.dataTable td .wide{
+  width:250px;
+}
+.dataTable_length{
+  display: None;
+}
+.dataTables_paginate,.dataTables_paginate span, .dataTables_paginate a{
+  float:left;
+  font-size:11px;
+  line-height: .1;
+  margin: 5px 0;
+}
+#data-table{
+  height:auto;
+}
+#data-table_next, #data-table_previous{
+  cursor: pointer;
+}
+#data-table_next{
+  padding-left:10px;
+}
+#data-table_length{
+  font-size:10px;
+  font-family:Helvetica,Arial,sans-serif; 
+}
+.dataTables_info{
+  margin-top:10px;
+  font-size:11px;
+}
+.dataTable tr td{
+  text-align:left;
+}
+.dataTable tr td div{
+  text-align:left;
+}
+
+.dataTable th{
+  padding: 8px 6px 8px 6px;
+  margin: 0;
+  overflow: hidden;
+  vertical-align: bottom;
+  background: #ececec;
+  border: 1px solid #CCC;
+  border-right: 0;
+  font: normal 11px Verdana,Arial,serif;
+  line-height: 12px;
+  min-width:100px;
+  color:#333;
+  text-align:left;
+  position: relative;
+}
+
+.DataTables_sort_icon{
+  margin:0 auto;
+}
+.dataTable th div{
+  margin-right:10px;
+}
+#gi label{
+  font-weight:normal;
+}
+.dataTables_filter label{
+  font-family:Verdana,sans-serif;
+  color:#333;
+  font-size:10px;
+  font-weight:normal;
+}
+.dataTable tr th:first-child{
+}
+.dataTable a{
+  color:#d60000;
+  text-decoration: None;
+}
+.dataTables_filter input{
+  padding:5px;
+  width:250px;
+  border:1px solid #b0b0b0;
+  margin:5px 0 5px 10px;
+  outline:None;
+}
+.dataTables_filter input:focus{
+  border:1px solid #333;
+}
+.dataTable_length,.dataTable_info,.dataTable_paginate{
+  font-size:11px;
+  font-weight:normal;
+}
+.dataTable_paginate a{
+  display:block;
+  float:left;
+  margin-right:10px;
+  color:red;
+}
+.dataTable .sorting_acs, .dataTable .sorting_desc{
+  font-weight:bold;
+}
+.DataTables_sort_wrapper span{
+  display: block;
+  margin:10px 0  0;
+}
+.fg-button{
+  border:None !important;
+}
+.dataTable .sorting_asc, .dataTable .sorting_desc{
+  font-weight:bold;
+}
+.dataTable .sortingSpan{
+  position: relative;
+  padding-left:5px;
+}
