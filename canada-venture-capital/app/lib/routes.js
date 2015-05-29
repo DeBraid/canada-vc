@@ -18,3 +18,10 @@ Router.route('vcfirms', {
   action: 'action',
   where: 'client'
 });
+
+Router.route('startups', {
+  name: 'startups',
+  controller: 'StartupsController',
+  action: 'action',
+  where: 'client'
+});

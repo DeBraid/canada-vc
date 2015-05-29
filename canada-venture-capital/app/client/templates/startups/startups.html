@@ -1,0 +1,7 @@
+<template name="Startups">
+	<h1>Startups + Capital Raised</h1>
+	{{#each startups }}
+	  	<p>{{ company }} + $ {{ amount }}</p>
+	  	<p>{{ location }}</p>
+	{{/each}}
+</template>
