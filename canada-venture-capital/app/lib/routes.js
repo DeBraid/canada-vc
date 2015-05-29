@@ -10,3 +10,11 @@ Router.route('/', {
   action: 'action',
   where: 'client'
 });
+
+
+Router.route('vcfirms', {
+  name: 'vcfirms',
+  controller: 'VcfirmsController',
+  action: 'action',
+  where: 'client'
+});
