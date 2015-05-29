@@ -1,0 +1,1 @@
+Vcfirms = new Mongo.Collection('vcfirms');

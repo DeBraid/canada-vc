@@ -1,3 +1,9 @@
 <template name="Vcfirms">
-  <h1>Find me in app/client/templates/vcfirms/vcfirms</h1>
+	{{#with vcfirms }}
+		{{#each firms }}
+		  	<a href="{{ link }}" target="_blank">
+		  		<p>{{ firm }}</p>
+	  		</a>
+		{{/each}}
+	{{/with}}
 </template>

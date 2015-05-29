@@ -3,3 +3,7 @@
  *  this.ready();
  * });
  */
+
+Meteor.publish('vcfirms', function () {
+	return Vcfirms.find();
+});
